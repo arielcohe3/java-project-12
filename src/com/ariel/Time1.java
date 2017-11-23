@@ -67,6 +67,10 @@ public class Time1 {
             return !before(other);
     }
 
+    /**
+     * get total number ....
+     * @return
+     */
     private int getTotalMinute(){
         return ((_hour*60)+_minute);
     }
